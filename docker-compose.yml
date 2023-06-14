@@ -3,7 +3,7 @@ services:
   rpc-server:
     build: rpc-server
     ports:
-      - "8888:8888"
+      - "8000:8000"
     environment:
       - SERVICE_NAME=rpc-server
       - SERVICE_TAGS=rpc
